@@ -6,6 +6,10 @@ sudo apt-get install vim docker-ce
 # Configure docker
 sudo usermod -aG docker mario
 
+# Configure git
+git config --global user.email "mleone10@gmail.com"
+git config --global user.name "Mario Leone"
+
 # Move dotfiles
 if [ ! -d dotfiles ]; then
     git clone https://github.com/mleone10/dotfiles.git
