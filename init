@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Install packages
+sudo apt-get install vim docker-ce 
+
+# Configure docker
+sudo usermod -aG docker mario
+
+# Move dotfiles
+if [ ! -d dotfiles ]; then
+    git clone https://github.com/mleone10/dotfiles.git
+fi
+cp dotfiles/.bash_profile ~/.bash_profile
+cp dotfiles/.vimrc ~/.vimrc
+
+
