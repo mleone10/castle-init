@@ -3,7 +3,7 @@
 # Install packages
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get install vim docker-ce awscli golang-go
+sudo apt-get install vim docker-ce awscli golang-go virtualenv
 
 # Configure docker
 sudo usermod -aG docker mario
