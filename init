@@ -22,4 +22,6 @@ fi
 cp dotfiles/.bash_profile ~/.bash_profile
 cp dotfiles/.vimrc ~/.vimrc
 cp -r dotfiles/.aws/ ~/.aws
+mkdir -p ~/.vim
+cp -r dotfiles/ftplugin ~/.vim/ftplugin
 
