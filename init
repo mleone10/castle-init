@@ -11,6 +11,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 
 # Install Vim Plugins
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+git clone https://github.com/chriskempson/base16-vim.git ~/.vim/bundle/base16-vim
 cp -r dotfiles/ftplugin ~/.vim/ftplugin
 
 # Install Base16 Color Tool
