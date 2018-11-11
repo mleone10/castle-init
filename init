@@ -11,6 +11,10 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 
 # Install Vim Plugins
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+cp -r dotfiles/ftplugin ~/.vim/ftplugin
+
+# Install Base16 Color Tool
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # Configure docker
 sudo usermod -aG docker mario
@@ -27,4 +31,3 @@ cp dotfiles/.bash_profile ~/.bash_profile
 cp dotfiles/.vimrc ~/.vimrc
 cp -r dotfiles/.aws/ ~/.aws
 mkdir -p ~/.vim
-cp -r dotfiles/ftplugin ~/.vim/ftplugin
