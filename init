@@ -32,5 +32,6 @@ if [ ! -d dotfiles ]; then
 fi
 cp dotfiles/.bash_profile ~/.bash_profile
 cp dotfiles/.vimrc ~/.vimrc
+cp dotfiles/.tmux.conf ~/.tmux.conf
 cp -r dotfiles/.aws/ ~/.aws
 mkdir -p ~/.vim
